@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+mkdir -p /usr/share/tlauncher
+cd /usr/share/tlauncher
+wget https://tlauncher.org/jar -O tlauncher.zip
+unzip tlauncher.zip
+rm ./*.txt
+mv ./*.jar tlauncher.jar

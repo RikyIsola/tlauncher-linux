@@ -1,0 +1,12 @@
+Source: tlauncher
+Section: games
+Priority: optional
+Maintainer: Riccardo Isola <riky.isola@gmail.com>
+Build-Depends: debhelper (>= 10)
+Homepage: https://github.com/RikyIsola/tlauncher-linux
+
+
+Package: tlauncher
+Architecture: any
+Description: Install TLauncher on Ubuntu
+Pre-Depends: wget, coreutils, unzip
