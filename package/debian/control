@@ -2,7 +2,8 @@ Source: tlauncher
 Section: games
 Priority: optional
 Maintainer: Riccardo Isola <riky.isola@gmail.com>
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper-compat (=13)
+Standards-Version: 3.9.3
 Homepage: https://github.com/RikyIsola/tlauncher-linux
 
 
@@ -10,3 +11,4 @@ Package: tlauncher
 Architecture: any
 Description: Install TLauncher on Ubuntu
 Pre-Depends: wget, coreutils, unzip
+Depends: default-jre
